@@ -1,0 +1,44 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postinstall": "node dbinit.mjs"
+  },
+  "dependencies": {
+    "@clickhouse/client": "^0.2.3",
+    "bundle-loader": "^0.5.6",
+    "chart.js": "^4.4.0",
+    "chartjs-adapter-date-fns": "^3.0.0",
+    "chartjs-adapter-dayjs-4": "^1.0.4",
+    "chartjs-plugin-zoom": "^2.0.1",
+    "csv-parser": "^3.0.0",
+    "date-fns": "^2.30.0",
+    "dayjs": "^1.11.10",
+    "dotenv": "^16.3.1",
+    "next": "13.5.4",
+    "react": "^18",
+    "react-data-grid": "^7.0.0-beta.40",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.4",
+    "postcss": "^8",
+    "tailwindcss": "^3",
+    "typescript": "^5"
+  },
+  "browser": {
+    "fs": false,
+    "os": false,
+    "path": false
+  }
+}

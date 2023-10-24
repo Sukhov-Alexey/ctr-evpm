@@ -1,0 +1,7 @@
+.rdg-row-even {
+    background-color: rgba(var(--even-row-rgba));
+}
+
+.rdg-row-odd {
+    background-color: rgba(var(--odd-row-rgba));
+}
